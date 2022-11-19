@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "CormorantGaramond-Light";
+    src: url(../fonts/CormorantGaramond-Light.ttf);
+}
+
+.logo
+{
+    font-family: "CormorantGaramond-Light";
+    font-size: xx-large;
+    color: black;
+    margin-left: 40px;
+    padding: 0;
+    max-width: 200px;
+}
+
+.bar
+{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}

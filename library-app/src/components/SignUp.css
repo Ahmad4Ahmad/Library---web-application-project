@@ -1,0 +1,47 @@
+.form
+{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 60%;
+    margin: 20px auto;
+    border-radius: 5px;
+    border: 3px solid gray;
+    box-shadow: 5px;
+    padding: 5px;
+    padding-bottom: 40px;
+    align-items: center;
+}
+
+.form-control
+{
+    width: 80%;
+}
+
+.form-control input, .form-control label
+{
+    display: block;
+    width: 100%;
+}
+
+.form-control label
+{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-control input
+{
+    margin-bottom: 20px;
+}
+
+.form-control input:focus
+{
+    outline: none;
+    border-color: rgb(0, 234, 156);
+}
+
+h2
+{
+    text-align: center;
+}

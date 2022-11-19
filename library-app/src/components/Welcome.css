@@ -1,0 +1,47 @@
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+
+.btn
+{
+    margin-top: 62px;
+    margin-right: 40px;
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.grid-container
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    gap: 10px;
+}
+
+.grid-container > .grid-item
+{
+    border-radius: 5px;
+    min-width: 200px;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+}
+
+img
+{
+    margin: 20px 20px;
+}
