@@ -1,0 +1,16 @@
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+
+.btn
+{
+    margin-top: 62px;
+    margin-right: 40px;
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

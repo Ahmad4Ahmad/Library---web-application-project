@@ -60,3 +60,18 @@ export const signoutUser = async() =>
         toast.error(message);
     }
 };
+
+export const getSigninStatus = async () =>
+{
+    try
+    {
+        const response = await axios.get(`${backendURL}/api/users/signedin`);
+        return response.data;
+    }
+    catch (error)
+    {
+        const message = (error.response && error.response.data && error.response.data.message) || 
+        error.message || error.toString();
+        toast.error(message);
+    }
+};

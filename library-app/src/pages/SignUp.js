@@ -1,13 +1,13 @@
 import "./SignUp.css";
-import Button from "./Button";
-import Logo from "./Logo";
+import Button from "../components/Button";
+import Logo from "../components/Logo";
 import {useState} from "react";
 import { toast } from "react-toastify";
 import { registerUser, validateEmail } from "../services/authServices";
 import {useDispatch} from "react-redux";
 import {useNavigate} from "react-router-dom";
 import {setLogin, setName} from "../redux/features/auth/authSlice";
-import Loader from "./Loader";
+import Loader from "../components/Loader";
 
 const initialState = 
 {

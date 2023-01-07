@@ -1,20 +1,11 @@
-import { Link } from "react-router-dom";
-import "./Welcome.css";
-import Logo from "./Logo";
-import Button from "./Button";
-
+import "./Home.css";
+import Header from "../components/Header";
 
 function Welcome()
 {
     return (
         <div className="container">
-            <div className="header">
-                <Logo></Logo>
-                <div className="btn">
-                    <Link to="/signin"><Button className="alt">Sign In</Button></Link>
-                    <Link to="/signup"><Button>Sign Up</Button></Link>
-                </div>
-            </div>
+            <Header></Header>
             <div className="grid-container">
                 <div className="grid-item">
                     <img src={require("../images/read.png")} alt="read"/>
